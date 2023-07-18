@@ -217,31 +217,3 @@
     border-radius: 5px;
   }
   
-  .clicked {
-    color: blue !important;
-  }
-  
-  .clicked2 {
-    color: blue !important;
-  }
-  
-  .clicked3 {
-    color: blue !important;
-  }
-  
-  .more {
-    display: flex;
-  }
-  
-  .less {
-    display: none;
-  }
-  
-  .remove {
-    display: none;
-  }
-  
-  .add {
-    display: flex;
-  }
-  
