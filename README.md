@@ -104,7 +104,7 @@ To run the project, execute the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Michael Darkwah**
+
 👤 **Enoch Bett**
 
 
