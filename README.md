@@ -15,6 +15,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+      - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -57,6 +58,14 @@
 - **[Local storage]**
 - **[Dynamic pages]**
 - **[Es6 Modules]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://bettenoch.github.io/Awesome-Book-Refractor/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,3 +157,7 @@ I would like to thank Microverse staff for their support and robust program
 This project is [MIT](https://github.com/Bettenoch/Awesome-Book-Refractor/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<a name="readme-top"></a>
+
