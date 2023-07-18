@@ -164,7 +164,6 @@
   }
   
   .removeBook {
-    /* margin-top: 3%; */
     vertical-align: bottom;
     width: 70px;
     height: 25px;
@@ -186,6 +185,11 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
   }
   
+  .bookList-content {
+    display: flex;
+    gap: 1rem;
+  }
+
   .form-btn {
     width: 70px;
     padding: 5px;
