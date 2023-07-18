@@ -114,8 +114,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Add more pages]**
 - [ ] **[Improve User Interaction]**
 
