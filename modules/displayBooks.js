@@ -1,5 +1,5 @@
-import fetchFromLstorage from "./fetchLocalStorage";
-import newBookItem from './newBookItem'
+import fetchFromLstorage from "./fetchLocalStorage.js";
+import newBookItem from './newBookItem.js'
 
 export default function displayBooks() {
     const books = fetchFromLstorage();
