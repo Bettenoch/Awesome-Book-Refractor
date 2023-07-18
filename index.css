@@ -124,7 +124,7 @@
     height: auto;
   }
   
-  .book-details {
+  .books-list-item{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -163,6 +163,23 @@
     justify-content: flex-end;
   }
   
+  .removeBook {
+    /* margin-top: 3%; */
+    vertical-align: bottom;
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .removeBook:hover {
+    background-color: rgb(39, 19, 62);
+    border: 0;
+    transition: 0.9s;
+    font-weight: bold;
+  }
+  
   .remove-btn {
     width: 70px;
     padding: 5px;
@@ -175,7 +192,7 @@
     box-shadow: 10px 10px 8px #888;
   }
   
-  #bookList .book-details:nth-child(odd) {
+  #bookList .books-list-item:nth-child(odd) {
     background: rgb(170, 165, 165);
   }
   
