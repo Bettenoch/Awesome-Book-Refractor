@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import bookItems from './modules/booklist.js';
 import CreateBook from './modules/newBookItem.js';
 import fetchFromLstorage from './modules/fetchLocalStorage.js';
@@ -20,22 +21,22 @@ const dateSection = document.querySelector('.date-time');
 dateSection.innerHTML = `${date} ${time}`;
 
 MainLink.forEach((link) => link.addEventListener('click', () => {
-    bookListContainer.style.display = 'flex';
-    addBookItem.style.display = 'none';
-    contactDoc.style.display = 'none';
-  }));
+  bookListContainer.style.display = 'flex';
+  addBookItem.style.display = 'none';
+  contactDoc.style.display = 'none';
+}));
 
 AddPageLink.forEach((link) => link.addEventListener('click', () => {
-    bookListContainer.style.display = 'none';
-    addBookItem.style.display = 'flex';
-    contactDoc.style.display = 'none';
-  }));
+  bookListContainer.style.display = 'none';
+  addBookItem.style.display = 'flex';
+  contactDoc.style.display = 'none';
+}));
 
 contactPageLink.forEach((link) => link.addEventListener('click', () => {
-    bookListContainer.style.display = 'none';
-    addBookItem.style.display = 'none';
-    contactDoc.style.display = 'flex';
-  }));
+  bookListContainer.style.display = 'none';
+  addBookItem.style.display = 'none';
+  contactDoc.style.display = 'flex';
+}));
 
 formField.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -48,6 +49,7 @@ formField.addEventListener('submit', (event) => {
   if (!title || !author) {
     addBookItem.style.display = 'flex';
   } else {
+    // eslint-disable-next-line new-cap
     const book = new bookItems(title, author, Date.now());
     books.push(book);
     CreateBook.addBook(book);
