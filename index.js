@@ -36,3 +36,34 @@ contactPageLink.forEach((link) => link.addEventListener('click', () => {
     addBookItem.style.display = 'none';
     contactDoc.style.display = 'flex';
   }));
+
+formField.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const titleInput = document.getElementById('title');
+  const authorInput = document.getElementById('author');
+  const title = titleInput.value;
+  const author = authorInput.value;
+  const books = fetchFromLstorage();
+
+  if (!title || !author) {
+    addBookItem.style.display = 'flex';
+  } else {
+    const book = new bookItems(title, author, Date.now());
+    bookItems.push(book);
+    CreateBook.addBook(book);
+    fetchFromLstorage();
+
+    localStorage.setItem('bookInfo', JSON.stringify(bookItems));
+
+    title.value = '';
+    author.value = '';
+  }
+});
+
+bookList.addEventListener('click', (e) => {
+  DeleteBook.deleteBookFromPage(e.target);
+  deleteFromStorage(e.target);
+});
+
+window.addEventListener('load', displayBooks());
+window.addEventListener('load', DeleteBook.displayOnLoad());
