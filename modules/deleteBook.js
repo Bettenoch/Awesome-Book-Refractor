@@ -1,4 +1,4 @@
-import fetchFromLstorage from "./fetchLocalStorage";
+import fetchFromLstorage from "./fetchLocalStorage.js";
 
 const bookList = document.getElementById('bookList');
 const bookListContainer = document.getElementById('book-list-content');
@@ -10,7 +10,7 @@ export class DeleteBook {
         }
     
         if (!bookList.firstElementChild) {
-          booksDiv.style.border = '3px solid red';
+          bookList.style.border = '3px solid red';
         }
       }
 
