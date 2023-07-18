@@ -58,6 +58,10 @@ header {
   padding: 0.5rem;
 }
 
+.navLinks li a:hover {
+  color: blue;
+}
+
 .contact-details li {
   list-style: circle;
 }
