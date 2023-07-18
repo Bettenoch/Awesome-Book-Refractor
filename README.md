@@ -69,7 +69,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Awesome Book](https://github.com/Bettenoch/Awesome-Book-Refractor)
 
 <!-- GETTING STARTED -->
 
