@@ -6,9 +6,10 @@ export default class CreateBook {
         bookItem.className = 'books-list-item';
         bookItem.id = book.id;
         bookItem.innerHTML = `
-            <p class="book-title">${book.title}</p> 
-            <p>By</p>
-            <p class="book-author">${book.author}</p>
+            <div class="bookList-content">
+                <p class="book-title">"<strong>${book.title}</strong>"</p> 
+                <p class="book-author">By: ${book.author}</p>
+            </div>
             <button class='removeBook'>Remove</button>
         `;
         bookList.appendChild(bookItem);
